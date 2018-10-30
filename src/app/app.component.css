@@ -1,0 +1,22 @@
+p {
+  font-family: Lato;
+}
+form {
+  text-align: center;
+}
+.botao{
+  margin:  auto;
+}
+
+
+* {
+    text-align: center;
+}
+.btn {
+  background-color: #ffffff ;
+  padding: 4px;
+  box-shadow: 3px 3px 5px #333333;
+  border-radius: 15px;
+  width: 5%;
+  color:#757575;
+}

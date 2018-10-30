@@ -1,0 +1,18 @@
+<h1>Build a Angular modal dialog with Angular Animate</h1>
+
+<p>
+  <a href="https://coryrylan.com/blog/build-a-angular-modal-dialog-with-angular-animate">Tutorial at coryrylan.com</a>
+</p>
+<div class="botao">
+<button (click)="showDialog = !showDialog" class="btn" routerLink="/loginTemplate">Open</button>
+</div>
+<app-dialog [(visible)]="showDialog">
+
+
+  <form action="getform.php" method="get">
+    <router-outlet></router-outlet>
+
+
+</form>
+
+</app-dialog>
